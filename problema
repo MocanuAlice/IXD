@@ -22,9 +22,9 @@ int main()
         for(j=i; j<=n; j++)
         {
             prod=prod*a[j];
-            cout<<"prod= "<<prod<<endl;
+            cout<<"prod="<<prod<<endl;
             cout<<"i="<<i<<endl;
-            cout<<"j= "<<j<<endl;
+            cout<<"j="<<j<<endl;
             if(prod>prodmax)
             {
                 prodmax=prod;
